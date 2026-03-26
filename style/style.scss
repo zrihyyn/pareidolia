@@ -86,12 +86,26 @@ a:hover {
 .is-3 { top: 40vh; left: 30vw; }
 .is-4 { top: 10vh; left: 20vw; }
 .is-5 { top: 10vh; left: 50vw; }
+.is-6 { top: 80vh; left: 10vw; }
+.is-7 { top: 60vh; left: 12vw; }
+.is-8 { top: 10vh; left: 62vw; }
+.is-9 { top: 90vh; left: 62vw; }
+.is-10 { top: 50vh; left: 92vw; }
+.is-11 { top: 50vh; left: 39vw; }
+.is-12 { top: 3vh; left: 39vw; }
 
 .is-1 img { height: calc(var(--base-size) * 3); }
 .is-2 img { height: calc(var(--base-size) * 3); }
 .is-3 img { height: calc(var(--base-size) * 1); }
 .is-4 img { height: calc(var(--base-size) * 0.3);}
 .is-5 img { height: calc(var(--base-size) * 0.5);}
+.is-6 img { height: calc(var(--base-size) * 0.5);}
+.is-7 img { height: calc(var(--base-size) * 2);}
+.is-8 img { height: calc(var(--base-size) * 1.4);}
+.is-9 img { height: calc(var(--base-size) * 0.3);}
+.is-10 img { height: calc(var(--base-size) * 0.5);}
+.is-11 img { height: calc(var(--base-size) * 1);}
+.is-12 img { height: calc(var(--base-size) * 0.8);}
 
 
 @media screen and (max-width: 768px) {
@@ -99,23 +113,28 @@ a:hover {
     font-size: 1.4rem;
   }
 
-  .container {
-    padding: 0.35rem;
+  :root {
+    --base-size: 14vh;
   }
 
   .main {
     max-width: 90vw;
   }
 
-  :root {
-    --base-size: 14vh;
-  }
-
   .is-1 { top: 12vh; left: 4vw; }
   .is-2 { bottom: 5vh; right: 5vw; }
   .is-3 { top: 45vh; left: 25vw; }
   .is-4 { top: 8vh; left: 15vw; }
-  .is-5 { top: 15vh; left: 55vw; }
+  .is-5 { top: 15vh; left: 50vw; }
+
+  .is-6 { bottom: 8vh; left: 8vw; }  
+  .is-7 { top: 60vh; left: 10vw; }
+  .is-8 { top: 10vh; left: 60vw; }
+  .is-9 { bottom: 1vh; left: 55vw; } 
+
+  .is-10 { top: 50vh; right: 0vw; }   
+  .is-11 { top: 50vh; left: 35vw; }
+  .is-12 { top: 5vh; left: 35vw; }
 }
 
 @media screen and (max-width: 480px) {
@@ -123,21 +142,27 @@ a:hover {
     font-size: 1.2rem;
   }
 
-  .container {
-    padding: 0.3rem;
+  :root {
+    --base-size: 11vh;
   }
 
   .main {
     max-width: 95vw;
   }
 
-  :root {
-    --base-size: 11vh;
-  }
-
   .is-1 { top: 10vh; left: 2vw; }
-  .is-2 { bottom: 8vh; right: 0vw; }
-  .is-3 { top: 50vh; left: 20vw; }
   .is-4 { top: 5vh; left: 10vw; }
-  .is-5 { top: 18vh; left: 50vw; }
+  .is-12 { top: 3vh; left: 30vw; }
+
+  .is-5 { top: 30vh; left: 50vw; }
+  .is-8 { top: 13vh; left: 50vw; }
+
+  .is-3 { top: 45vh; left: 20vw; }
+  .is-11 { top: 50vh; left: 70vw; }
+  .is-7 { top: 60vh; left: 8vw; }
+
+  .is-6 { bottom: 10vh; left: 5vw; }
+  .is-2 { bottom: 5vh; right: 0vw; }
+  .is-9 { top: auto; bottom: 2vh; left: 30vw; }
+  .is-10 { top:auto; left: auto; bottom: 10vh; right: 20vw; }
 }
