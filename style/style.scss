@@ -96,65 +96,48 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   html {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .container {
-    padding: 0.35rem 0.4rem 0.4rem 0.4rem;
+    padding: 0.35rem;
   }
 
   .main {
     max-width: 90vw;
   }
 
-  .rand-a {
-    top: 10vh;
-    left: 2vw;
+  :root {
+    --base-size: 14vh;
   }
 
-  .rand-a img {
-    height: 24vh;
-  }
-
-  .rand-b {
-    right: -6vw;
-    bottom: 0;
-  }
-
-  .rand-b img {
-    height: 38vh;
-  }
+  .is-1 { top: 12vh; left: 4vw; }
+  .is-2 { bottom: 5vh; right: 5vw; }
+  .is-3 { top: 45vh; left: 25vw; }
+  .is-4 { top: 8vh; left: 15vw; }
+  .is-5 { top: 15vh; left: 55vw; }
 }
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .container {
-    padding: 0.3rem 0.35rem 0.35rem 0.35rem;
+    padding: 0.3rem;
   }
 
   .main {
-    max-width: 94vw;
+    max-width: 95vw;
   }
 
-  .rand-a {
-    top: 10vh;
-    left: 3vw;
+  :root {
+    --base-size: 11vh;
   }
 
-  .rand-a img {
-    height: 30vh;
-  }
-
-  .rand-b {
-    right: -6vw;
-    bottom: 10vh;
-  }
-
-  .rand-b img {
-    height: 32vh;
-    transform: rotate(40deg);
-  }
+  .is-1 { top: 10vh; left: 2vw; }
+  .is-2 { bottom: 8vh; right: 0vw; }
+  .is-3 { top: 50vh; left: 20vw; }
+  .is-4 { top: 5vh; left: 10vw; }
+  .is-5 { top: 18vh; left: 50vw; }
 }
