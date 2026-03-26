@@ -69,7 +69,6 @@ a:hover {
   max-height: none;
   -o-object-fit: contain;
      object-fit: contain;
-  overlay: MediumVioletRed;
 }
 
 .rand-a img {
@@ -82,4 +81,48 @@ a:hover {
   right: 5vw;
   bottom: 0;
   height: 70vh;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding: 0.35rem 0.4rem 0.4rem 0.4rem;
+  }
+  .main {
+    max-width: 90vw;
+  }
+  .rand-a img {
+    top: 10vh;
+    left: 2vw;
+    height: 24vh;
+  }
+  .rand-b img {
+    right: -6vw;
+    bottom: 0;
+    height: 38vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding: 0.3rem 0.35rem 0.35rem 0.35rem;
+  }
+  .main {
+    max-width: 94vw;
+  }
+  .rand-a img {
+    top: 10vh;
+    left: 3vw;
+    height: 30vh;
+  }
+  .rand-b img {
+    right: -6vw;
+    bottom: 10vh;
+    height: 32vh;
+    rotate: 40deg;
+  }
 }/*# sourceMappingURL=style.css.map */
