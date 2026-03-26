@@ -42,6 +42,10 @@ p {
   color: indigo;
 }
 
+#th {
+  color: #D8BFD8;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -202,6 +206,66 @@ a:hover {
   left: 29vw;
 }
 
+.is-25 {
+  top: 6vh;
+  left: 10vw;
+}
+
+.is-26 {
+  top: 40vh;
+  left: 2vw;
+}
+
+.is-27 {
+  bottom: 50vh;
+  right: 60vw;
+}
+
+.is-28 {
+  top: 10vh;
+  left: 50vw;
+}
+
+.is-29 {
+  top: 79vh;
+  left: 44vw;
+}
+
+.is-30 {
+  top: 20vh;
+  left: 35vw;
+}
+
+.is-31 {
+  top: 2vh;
+  left: 30vw;
+}
+
+.is-32 {
+  top: 27vh;
+  left: 66vw;
+}
+
+.is-33 {
+  top: 50vh;
+  left: 62vw;
+}
+
+.is-34 {
+  top: 70vh;
+  left: 77vw;
+}
+
+.is-35 {
+  top: 10vh;
+  left: 65vw;
+}
+
+.is-36 {
+  top: 50vh;
+  left: 29vw;
+}
+
 .is-1 img {
   height: calc(var(--base-size) * 3);
 }
@@ -295,6 +359,54 @@ a:hover {
 }
 
 .is-24 img {
+  height: calc(var(--base-size) * 1);
+}
+
+.is-25 img {
+  height: calc(var(--base-size) * 1);
+}
+
+.is-26 img {
+  height: calc(var(--base-size) * 0.4);
+}
+
+.is-27 img {
+  height: calc(var(--base-size) * 1.7);
+}
+
+.is-28 img {
+  height: calc(var(--base-size) * 0.4);
+}
+
+.is-29 img {
+  height: calc(var(--base-size) * 0.7);
+}
+
+.is-30 img {
+  height: calc(var(--base-size) * 1);
+}
+
+.is-31 img {
+  height: calc(var(--base-size) * 0.3);
+}
+
+.is-32 img {
+  height: calc(var(--base-size) * 1);
+}
+
+.is-33 img {
+  height: calc(var(--base-size) * 1.4);
+}
+
+.is-34 img {
+  height: calc(var(--base-size) * 1);
+}
+
+.is-35 img {
+  height: calc(var(--base-size) * 0.6);
+}
+
+.is-36 img {
   height: calc(var(--base-size) * 1);
 }
 
@@ -406,6 +518,56 @@ a:hover {
   .is-24 {
     top: 48vh;
     left: 24vw;
+  }
+  .is-25 {
+    top: 8vh;
+    left: 8vw;
+  }
+  .is-26 {
+    top: 42vh;
+    left: 2vw;
+  }
+  .is-27 {
+    top: auto;
+    left: 20vw;
+    bottom: 20vh;
+  }
+  .is-28 {
+    top: 12vh;
+    left: 45vw;
+  }
+  .is-29 {
+    top: auto;
+    left: 40vw;
+    bottom: 5vh;
+  }
+  .is-30 {
+    top: 22vh;
+    left: 30vw;
+  }
+  .is-31 {
+    top: 3vh;
+    left: 25vw;
+  }
+  .is-32 {
+    top: 30vh;
+    left: 60vw;
+  }
+  .is-33 {
+    top: 50vh;
+    left: 55vw;
+  }
+  .is-34 {
+    top: 65vh;
+    left: 70vw;
+  }
+  .is-35 {
+    top: 12vh;
+    left: 60vw;
+  }
+  .is-36 {
+    top: 48vh;
+    left: 25vw;
   }
 }
 @media screen and (max-width: 480px) {
@@ -521,5 +683,57 @@ a:hover {
   .is-24 {
     top: 46vh;
     left: 18vw;
+  }
+  .is-25 {
+    top: 6vh;
+    left: 6vw;
+  }
+  .is-26 {
+    top: 40vh;
+    left: 1vw;
+  }
+  .is-27 {
+    top: auto;
+    left: 15vw;
+    bottom: 25vh;
+  }
+  .is-28 {
+    top: 12vh;
+    left: 40vw;
+  }
+  .is-29 {
+    top: auto;
+    left: 35vw;
+    bottom: 6vh;
+  }
+  .is-30 {
+    top: 22vh;
+    left: 25vw;
+  }
+  .is-31 {
+    top: 2vh;
+    left: 20vw;
+  }
+  .is-32 {
+    top: 38vh;
+    left: 45vw;
+  }
+  .is-33 {
+    top: 48vh;
+    left: 50vw;
+  }
+  .is-34 {
+    top: auto;
+    left: auto;
+    right: 5vw;
+    bottom: 12vh;
+  }
+  .is-35 {
+    top: 10vh;
+    left: 55vw;
+  }
+  .is-36 {
+    top: 46vh;
+    left: 20vw;
   }
 }/*# sourceMappingURL=style.css.map */
