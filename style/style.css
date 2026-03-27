@@ -1205,7 +1205,8 @@ a:hover {
     left: 68vw;
   }
   .is-21 {
-    top: 86vh;
+    top: auto;
+    bottom: 2vh;
     left: 14vw;
   }
   .is-22 {
