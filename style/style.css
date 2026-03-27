@@ -1325,7 +1325,7 @@ a:hover {
   .is-48 {
     top: auto;
     left: 10vw;
-    bottom: 10vh;
+    bottom: 4vh;
   }
   .is-49 {
     top: 78vh;
@@ -1350,7 +1350,7 @@ a:hover {
   }
   .is-54 {
     top: auto;
-    bottom: 6svh;
+    bottom: 10vh;
     left: 10vw;
   }
   .is-55 {
