@@ -311,7 +311,7 @@ a:hover {
 
 .is-37 {
   top: 9vh;
-  left: -4vw;
+  left: 1vw;
 }
 
 .is-38 {
@@ -495,8 +495,8 @@ a:hover {
 }
 
 .is-74 {
-  top: 60vh;
-  left: 65vw;
+  top: 65vh;
+  left: 72vw;
 }
 
 .is-75 {
@@ -515,8 +515,8 @@ a:hover {
 }
 
 .is-78 {
-  bottom: 1vh;
-  left: 10vw;
+  bottom: 15vh;
+  left: 57vw;
 }
 
 .is-1 img {
@@ -1531,8 +1531,8 @@ a:hover {
   .is-74 {
     top: auto;
     left: auto;
-    right: 1vw;
-    bottom: 14vh;
+    right: 0vw;
+    bottom: -3.9vh;
   }
   .is-75 {
     top: 15vh;
@@ -1543,11 +1543,11 @@ a:hover {
     right: 6vw;
   }
   .is-77 {
-    top: 24vh;
-    left: 5vw;
+    top: 34vh;
+    left: 1vw;
   }
   .is-78 {
-    bottom: 0vh;
+    bottom: 24vh;
     left: 6vw;
   }
 }/*# sourceMappingURL=style.css.map */

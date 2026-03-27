@@ -10,6 +10,7 @@
   display: block;
 }
 
+
 @font-face {
   font-family: 'Agipo';
   src: url('Agipo-Regular.woff2') format('woff2'),
@@ -155,7 +156,7 @@ a:hover {
 .is-35 { top: 10vh; left: 65vw; }
 .is-36 { top: 50vh; left: 29vw; }
 
-.is-37 { top: 9vh; left: -4vw; }
+.is-37 { top: 9vh; left: 1vw; }
 .is-38 { top: 82vh; left: -1vw; }
 .is-39 { top: 1vh; left: 70vw; }
 .is-40 { top: 2vh; left: 16vw; }
@@ -197,11 +198,11 @@ a:hover {
 
 .is-72 { top: 1vh; left: 15vw; }
 .is-73 { top: 1vh; left: 60vw; }
-.is-74 { top: 60vh; left: 65vw; }
+.is-74 { top: 65vh; left: 72vw; }
 .is-75 { top: -1.9vh; left: 32vw; }
 .is-76 { top: 35vh; right: 14vw; }
 .is-77 { top: 25vh; left: 9vw; }
-.is-78 { bottom: 1vh; left: 10vw; }
+.is-78 { bottom: 15vh; left: 57vw; }
 
 
 .is-1 img { height: calc(var(--base-size) * 3); }
@@ -596,13 +597,13 @@ a:hover {
   .is-74 {
     top: auto;
     left: auto;
-    right: 1vw;
-    bottom: 14vh;
+    right: 0vw;
+    bottom: -3.9vh;
   }
 
   .is-75 { top: 15vh; left: 22vw; }
   .is-76 { top: 34vh; right: 6vw; }
-  .is-77 { top: 24vh; left: 5vw; }
-  .is-78 { bottom: 0vh; left: 6vw; }
+  .is-77 { top: 34vh; left: 1vw; }
+  .is-78 { bottom: 24vh; left: 6vw; }
 
 }
