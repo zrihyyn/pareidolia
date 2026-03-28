@@ -29,7 +29,7 @@ html {
   font-size: 1.64rem;
   font-variant-numeric: oldstyle-nums;
   color: MediumVioletRed;
-  hyphens: auto;
+  word-break: keep-all;
 }
 
 body {
