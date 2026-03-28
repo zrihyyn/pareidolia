@@ -266,6 +266,16 @@ a:hover {
 .is-132 { bottom: 3vh; left:10vw; }
 
 
+.is-133 { top: 1vh; left: 35vw; }
+.is-134 { top: 1vh; right: 9vw; }
+.is-135 { top: 10vh; left: 15vw; }
+.is-136 { bottom: 40vh; right: 4vw; }
+.is-137 { bottom: 13vh; left: 3vw; }
+.is-138 { bottom: 50vh; right: 33vw; }
+.is-139 { bottom: 0vh; left: 7vw; }
+.is-140 { bottom: -1vh; left: 43vw; }
+.is-141 { bottom: 3vh; right:10vw; }
+
 .is-1 img { height: calc(var(--base-size) * 3); }
 .is-2 img { height: calc(var(--base-size) * 3); }
 .is-3 img { height: calc(var(--base-size) * 1); }
@@ -417,6 +427,15 @@ a:hover {
 .is-131 img { height: calc(var(--base-size) * 1.1);}
 .is-132 img { height: calc(var(--base-size) * 1.5);}
 
+.is-133 img { height: calc(var(--base-size) * 1);}
+.is-134 img { height: calc(var(--base-size) * 1.5);}
+.is-135 img { height: calc(var(--base-size) * 1.3);}
+.is-136 img { height: calc(var(--base-size) * 1.2);}
+.is-137 img { height: calc(var(--base-size) * 3);}
+.is-138 img { height: calc(var(--base-size) * 1.1);}
+.is-139 img { height: calc(var(--base-size) * 1.3);}
+.is-140 img { height: calc(var(--base-size) * 0.7);}
+.is-141 img { height: calc(var(--base-size) * 2.9);}
 
 @media screen and (max-width: 768px) {
   html {
@@ -633,6 +652,18 @@ a:hover {
   .is-131 { bottom: 40vh; left: 42vw; }
 
   .is-132 { bottom: 8vh; left: 13vw; }
+
+  .is-133 { top: 2vh; left: 24vw; }
+  .is-134 { top: 2vh; right: 0vw; }
+  .is-135 { top: 10vh; left: 6vw; }
+
+  .is-136 { bottom: 58vh; right: 3vw; }
+  .is-137 { bottom:31vh; left: 1vw; }
+  .is-138 { bottom: auto; top:20vh; right: 26vw; }
+
+  .is-139 { bottom: 22vh; left: 6vw; }
+  .is-140 { bottom: 2vh; left: 8vw; }
+  .is-141 { bottom: 4vh; right: 6vw; }
 
 }
   
@@ -883,4 +914,27 @@ a:hover {
   }
 
   .is-132 { bottom: 14vh; left: 10vw; }
+
+  .is-133 { top: 2vh; left: 20vw; }
+  .is-134 { top: 10vh; right: 0vw; }
+  .is-135 { top: 10vh; left: 1vw; }
+
+  .is-136 {
+    top: auto;
+    bottom: 55vh;
+    right: 2vw;
+  }
+
+  .is-137 { bottom: 30vh; left: 1vw; }
+
+  .is-138 {
+    top: auto;
+    bottom:22vh;
+    right: auto;
+    left: 1vw;
+  }
+
+  .is-139 { bottom: -0.5vh; left: 30vw; }
+  .is-140 { bottom: 10vh; left: -4vw; }
+  .is-141 { bottom: 13vh; right: 2vw; }
 }
