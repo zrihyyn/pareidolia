@@ -3172,8 +3172,7 @@ a:hover {
     right: 1vw;
   }
   .is-106 {
-    top: 48vh;
-    left: 22vw;
+    visibility: hidden;
   }
   .is-107 {
     bottom: 18vh;
@@ -3212,8 +3211,7 @@ a:hover {
     left: 10vw;
   }
   .is-116 {
-    bottom: 0vh;
-    right: 1vw;
+    visibility: hidden;
   }
   .is-117 {
     top: 0vh;
@@ -3321,8 +3319,8 @@ a:hover {
     right: 2vw;
   }
   .is-142 {
-    top: 41vh;
-    left: 2vw;
+    top: 30vh;
+    left: 15vw;
   }
   .is-143 {
     bottom: 4vh;
@@ -3355,9 +3353,7 @@ a:hover {
     left: 2vw;
   }
   .is-150 {
-    top: 37vh;
-    right: -20vw;
-    rotate: 40deg;
+    visibility: hidden;
   }
   .is-151 {
     top: 20vh;
@@ -3499,9 +3495,7 @@ a:hover {
     left: 10vw;
   }
   .is-186 {
-    bottom: 20vh;
-    left: auto;
-    right: 1vw;
+    visibility: hidden;
   }
   .is-187 {
     bottom: 3vh;
