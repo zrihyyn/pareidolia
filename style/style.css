@@ -3701,12 +3701,13 @@ a:hover {
     right: 32vw;
   }
   .is-210 {
-    --base-size: 8vh;
+    --base-size: 9vh;
     bottom: 35vh;
-    right: -1.9vw;
+    right: 0vw;
   }
   .is-211 {
+    --base-size: 7.6vh;
     bottom: 35vh;
-    right: -1.5vw;
+    right: -0.5vw;
   }
 }/*# sourceMappingURL=style.css.map */
