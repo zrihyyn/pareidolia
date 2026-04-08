@@ -77,6 +77,18 @@ p {
   color: limegreen;
 }
 
+#jh {
+  color: magenta;
+}
+
+#jh2 {
+  color: indigo;
+}
+
+#jh3 {
+  color: darkgreen;
+}
+
 .name {
   margin-left: 50%;
   width: 25vw;
@@ -1216,6 +1228,11 @@ a:hover {
   right: 0vw;
 }
 
+.is-212 {
+  bottom: 0vh;
+  right: 0vw;
+}
+
 .is-1 img {
   height: calc(var(--base-size) * 3);
 }
@@ -2073,6 +2090,10 @@ a:hover {
 }
 
 .is-211 img {
+  height: calc(var(--base-size) * 4);
+}
+
+.is-212 img {
   height: calc(var(--base-size) * 4);
 }
 
@@ -3709,5 +3730,10 @@ a:hover {
     --base-size: 7.6vh;
     bottom: 35vh;
     right: -0.5vw;
+  }
+  .is-212 {
+    --base-size: 15vh;
+    bottom: 0vh;
+    right: 0vw;
   }
 }/*# sourceMappingURL=style.css.map */

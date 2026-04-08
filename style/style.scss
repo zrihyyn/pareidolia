@@ -77,6 +77,17 @@ p {
   color:limegreen;
 }
 
+#jh{
+  color: magenta;
+}
+
+#jh2{
+  color: indigo;
+}
+
+#jh3{
+  color:darkgreen;
+}
 .name{
   margin-left:50%;
   width: 25vw;
@@ -381,6 +392,7 @@ a:hover {
 
 .is-210 { bottom: 10vh; right:12vw; }
 .is-211 { bottom: 0vh; right:0vw; }
+.is-212 { bottom: 0vh; right:0vw; }
 
 
 .is-1 img { height: calc(var(--base-size) * 3); }
@@ -623,6 +635,10 @@ a:hover {
 .is-210 img { height: calc(var(--base-size) * 3.4);}
 
 .is-211 img { height: calc(var(--base-size) * 4);}
+
+.is-212 img { height: calc(var(--base-size) * 4);}
+
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 1.4rem;
@@ -1259,4 +1275,5 @@ a:hover {
 
 .is-210 {  --base-size: 9vh; bottom: 35vh; right: 0vw; }
 .is-211 { --base-size: 7.6vh; bottom: 35vh; right:-0.5vw; }
+.is-212 { --base-size: 15vh; bottom: 0vh; right:0vw; }
 }
