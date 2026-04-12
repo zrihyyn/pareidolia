@@ -11,28 +11,72 @@
 <body>
     <div class="container">
         <div class="name">
-            <p><u>Thanks to from March 2026...</u></p><br>
-                <div class="nm">Alex Rainer</div><p>Tom was born from his wooden piece.</p><br><br>
-                <div class="nm">Stanisław Zieliński</div><p>Jamie came up during a conversation with him. He also gave thousands of thoughtful pieces of feedback on the website.</p>
+            <p>From March 2026...</p><br>
+                <div class="nm">Alex Rainer</div><p>Tom was born from a piece of leftover wood during a workshop. While working with scraps from the wood studio, I accidentally found a shape that looked like a dog’s face.</p><br><br>
+                <div class="nm">Stanisław Zieliński</div><p>Jamie came out of a conversation with Stan. He said something about pigeons, and around that time I was holding an A3 sheet and a cheap ballpoint pen. I just started drawing hundreds of pigeons on the paper. For a while they had no name. At some point I decided to call her Jamie. Stan also gave me a lot of thoughtful feedback on the website. He probably thinks I am a bit crazy for making all those drawings.</p>
                 <br>     <br>
-                <div class="nm">Haeun Na</div><p>She is a great supporter of this drawing series. She motivated me to keep going. By the way, she makes amazing drawings too.</p>
+                <div class="nm">Haeun Na</div><p>She has been a great supporter of this drawing series and really encouraged me to keep going. She also makes amazing drawings herself.</p>
                 <br>     <br>
-                <div class="nm">Yin Engelaan</div><p>She said she wants to get a tattoo of this drawing.</p>
+                <div class="nm">Yin Engelaan</div><p>She once said she wants to get a tattoo of one of the drawings. I’m pretty sure she was joking… but still.</p>
                 <br>     <br>
-                <div class="nm">Bart de Baets</div><p>He encouraged me to do something with Tom and Jamie, like comics, and shared some great references that sparked new ideas.</p>
+                <div class="nm">Bart de Baets</div><p>He encouraged me to develop Tom and Jamie further—maybe into comics—and shared references that sparked new ideas. At one point he even suggested designing wrapping paper for Page Not Found, an independent bookstore in The Hague.</p>
                 <br>    <br>
-                <div class="nm">Felix Salut</div><p>He really likes my drawings and wanted to connect me with one of his students who is doing a graduation project about pareidolia.</p>
+                <div class="nm">Felix Salut</div><p>He really liked my drawings and wanted to connect me with one of his students, who is working on a graduation project about pareidolia.</p>
                 <br>     <br>
-                <div class="nm">Andre Kahveciyan</div><p>He said the website is very cute, and that he’d be happy to screen print Tom and Jamie on hoodies or T-shirts together.</p>
+                <div class="nm">Andre Kahveciyan</div><p>He said the website is very cute and mentioned he’d be happy to screen print Tom and Jamie on hoodies or T-shirts.</p>
                 <br>     <br>
-                <div class="nm">Panna Drenkó</div><p>She said she loves my drawing series, especially Tom, if I remember correctly. We also thought maybe I could draw on the whiteboard at our place.</p>
+                <div class="nm">Panna Drenkó</div><p>She told me she loves the drawing series, especially Tom, if I remember correctly. We also talked about possibly drawing on the whiteboard together.</p>
                 <br>     <br>
                 <div class="nm">Sunyoon Yang</div><p>She is a huge fan of Tom and Jamie. I gave her a special Tom and Jamie drawing edition as a scanned file for her birthday.</p>
                 <br>     <br>
                 <div class="nm">Seojin Jang</div><p>She said this drawing is very impressive and that I should make some stickers out of it.</p><br><br>
-                    <div class="nm">And surely many others I can’t recall right now (= 28 March 2026). I’ll add them as I remember!</div>
+                <div class="nm">Vlad Omelianenko</div><p>He texted me about the website and said, “Such a nice website.” I also like a few of the websites he made.</p><br><br>
+                    <div class="nm">And surely many others I can’t recall right now (= 12 April 2026). I’ll add them as I remember!</div>
                 </div>
     </div>
-    
+    <a href="purple.html" class="page-link" aria-label="Go to next page"></a>
+
+    <script>
+        (() => {
+          const nextLink = document.querySelector('.page-link');
+          if (!nextLink) return;
+      
+          let startX = 0;
+          let startY = 0;
+          let moved = false;
+      
+          document.addEventListener('touchstart', (e) => {
+            const t = e.touches[0];
+            startX = t.clientX;
+            startY = t.clientY;
+            moved = false;
+          }, { passive: true });
+      
+          document.addEventListener('touchmove', (e) => {
+            const t = e.touches[0];
+            const dx = Math.abs(t.clientX - startX);
+            const dy = Math.abs(t.clientY - startY);
+      
+            if (dx > 8 || dy > 8) {
+              moved = true;
+            }
+          }, { passive: true });
+      
+          document.addEventListener('touchend', (e) => {
+            if (moved) return;
+      
+            const target = e.target;
+            if (target.closest('a') && !target.classList.contains('page-link')) return;
+      
+            window.location.href = nextLink.href;
+          });
+      
+          document.addEventListener('click', (e) => {
+            const target = e.target;
+            if (target.closest('a') && !target.classList.contains('page-link')) return;
+            window.location.href = nextLink.href;
+          });
+        })();
+      </script>
 </body>
 </html>
