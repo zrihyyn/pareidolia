@@ -6,7 +6,7 @@
 .page-link {
   position: fixed;
   inset: 0;
-  z-index: 9999;
+  z-index: 999999;
   display: block;
 }
 
@@ -99,8 +99,15 @@ p {
   pointer-events: none;
 }
 
+.container,
+.main,
+.rand,
+.name {
+  pointer-events: none;
+}
+
 .name{
-  pointer-events: auto;
+  pointer-events: none;
   cursor: auto;
 
   margin-left: 50%;
