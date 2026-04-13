@@ -989,7 +989,7 @@ a:hover {
     max-width: 95vw;
   }
 
-  .is-1 {--base-size: 8vh; top:40vh; left:10vw; }
+  .is-1 {  --base-size: 11vh; transform: translateX(0) translateY(0); left: auto; right:0vw; top:auto; bottom: 10vh; }
   .is-4 { top: 1vh; left: 10vw; }
   .is-12 { top: 3vh; left: 30vw; }
 
@@ -1001,7 +1001,7 @@ a:hover {
   .is-7 { top: 60vh; left: 30vw; }
 
   .is-6 { bottom: 10vh; left: 5vw; }
-  .is-2 { bottom: 5vh; right: 0vw; }
+  .is-2 { bottom: auto; top: 20vh; right: 0vw; }
   .is-9 { top: auto; bottom: 2vh; left: 30vw; }
   .is-10 { top:auto; left: auto; bottom: 10vh; right: 20vw; }
 
