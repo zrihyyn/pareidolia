@@ -3000,6 +3000,7 @@ a:hover {
     left: 5vw;
   }
   .is-2 {
+    --base-size: 9vh;
     bottom: auto;
     top: 20vh;
     right: 0vw;
@@ -3446,8 +3447,9 @@ a:hover {
     right: 6vw;
   }
   .is-113 {
-    bottom: 30vh;
-    right: 2vw;
+    --base-size: 19vh;
+    bottom: 10vh;
+    right: -14vw;
   }
   .is-114 {
     top: 28vh;
