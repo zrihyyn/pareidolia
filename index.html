@@ -4,20 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/style.css">
-        <link rel="icon" type="image/x-icon" href="asset/tnj.png">
+        <link rel="icon" type="image/png" href="asset/tnj.png">
         <link rel="preload" href="Agipo-Regular.woff2" as="font" type="font/woff2" crossorigin>
         <title>Tom and Jamie</title>
       </head>
 <body>
     <a href="logo.html" class="page-link"></a>
-    <a class="rand is-1" href="">
-        <img src="asset/www.png" alt="">
-      </a>
-      
-      <a class="rand is-2" href="">
-        <img src="" alt="">
-      </a>
-      
+    <div class="rand is-1">
+      <img src="asset/www.png" alt="">
+   </div>
+    
 
     <div class="container">
         <div class="main">
@@ -26,20 +22,21 @@
         </div>
     </div>
     <script>
-        document.querySelectorAll('a').forEach(link => {
-          link.addEventListener('click', function (e) {
-            const href = this.getAttribute('href');
-      
-            if (!href || href.startsWith('#') || this.target === '_blank') return;
-      
-            e.preventDefault();
-            document.body.classList.add('is-leaving');
-      
-            setTimeout(() => {
-              window.location.href = href;
-            }, 250);
-          });
+      const link = document.querySelector('.page-link');
+    
+      if (link) {
+        link.addEventListener('click', function (e) {
+          const href = this.getAttribute('href');
+          if (!href) return;
+    
+          e.preventDefault();
+          document.body.classList.add('is-leaving');
+    
+          setTimeout(() => {
+            window.location.href = href;
+          }, 250);
         });
-      </script>
+      }
+    </script>
 </body>
 </html>

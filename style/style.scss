@@ -6,7 +6,7 @@
 .page-link {
   position: fixed;
   inset: 0;
-  z-index: 1;
+  z-index: 9999;
   display: block;
 }
 
@@ -96,13 +96,14 @@ p {
 }
 
 .container{
-  pointer-events:none;
+  pointer-events: none;
 }
+
 .name{
   pointer-events: auto;
   cursor: auto;
 
-  margin-left:50%;
+  margin-left: 50%;
   width: 50vw;
   color:darkseagreen;
   font-size: 0.8rem;
@@ -149,14 +150,16 @@ a:hover {
 
 .rand {
   position: fixed;
-  z-index: 3;
+  z-index: 0;
   display: block;
+  pointer-events: none;
 }
 
 .rand img {
   display: block;
   height: auto;
   width: auto;
+  pointer-events: none;
 }
 
 
@@ -979,7 +982,7 @@ a:hover {
     max-width: 95vw;
   }
 
-  .is-1 {--base-size: 8vh; transform: translateX(10%) translateY(70%) }
+  .is-1 {--base-size: 8vh; top:40vh; left:10vw; }
   .is-4 { top: 1vh; left: 10vw; }
   .is-12 { top: 3vh; left: 30vw; }
 
