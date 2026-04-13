@@ -181,7 +181,8 @@ a:hover {
 }
 
 .is-2 {
-  bottom: 0;
+  --base-size: 14vh;
+  bottom: 50vh;
   right: 10vw;
 }
 
@@ -3379,8 +3380,7 @@ a:hover {
     left: 2vw;
   }
   .is-95 {
-    top: 12vh;
-    left: 7vw;
+    visibility: hidden;
   }
   .is-96 {
     bottom: 8vh;
@@ -3391,8 +3391,7 @@ a:hover {
     left: 32vw;
   }
   .is-98 {
-    top: 30vh;
-    left: 32vw;
+    visibility: hidden;
   }
   .is-99 {
     top: 42vh;
@@ -3403,16 +3402,14 @@ a:hover {
     right: 0vw;
   }
   .is-101 {
-    bottom: -1vh;
-    left: 3vw;
+    visibility: hidden;
   }
   .is-102 {
     bottom: 30vh;
     right: 1vw;
   }
   .is-103 {
-    top: 37vh;
-    left: 32vw;
+    visibility: hidden;
   }
   .is-104 {
     top: auto;
@@ -3431,12 +3428,10 @@ a:hover {
     right: 1vw;
   }
   .is-108 {
-    top: -3vh;
-    right: -1vw;
+    visibility: hidden;
   }
   .is-109 {
-    bottom: 0vh;
-    right: 1vw;
+    visibility: hidden;
   }
   .is-110 {
     top: 0vh;
@@ -3459,15 +3454,13 @@ a:hover {
     left: 28vw;
   }
   .is-115 {
-    top: 36vh;
-    left: 10vw;
+    visibility: hidden;
   }
   .is-116 {
     visibility: hidden;
   }
   .is-117 {
-    top: 0vh;
-    left: 2vw;
+    visibility: hidden;
   }
   .is-118 {
     bottom: 4vh;
@@ -3478,9 +3471,7 @@ a:hover {
     left: 30vw;
   }
   .is-120 {
-    top: auto;
-    bottom: 18vh;
-    right: 14vw;
+    visibility: hidden;
   }
   .is-121 {
     top: 20vh;
@@ -3491,8 +3482,7 @@ a:hover {
     left: 10vw;
   }
   .is-123 {
-    bottom: 12vh;
-    right: -3vw;
+    visibility: hidden;
   }
   .is-124 {
     bottom: 1vh;
@@ -3507,12 +3497,10 @@ a:hover {
     right: 2vw;
   }
   .is-127 {
-    bottom: 30vh;
-    left: 1vw;
+    visibility: hidden;
   }
   .is-128 {
-    bottom: 4vh;
-    left: 24vw;
+    visibility: hidden;
   }
   .is-129 {
     bottom: 10vh;
@@ -3634,9 +3622,7 @@ a:hover {
     right: 2vw;
   }
   .is-158 {
-    bottom: auto;
-    top: 10vh;
-    left: 18vw;
+    visibility: hidden;
   }
   .is-159 {
     bottom: 30vh;
