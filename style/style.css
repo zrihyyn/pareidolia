@@ -26,8 +26,7 @@ body {
 }
 
 html {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 400;
+  font-family: "Agipo";
   font-size: 1.64rem;
   font-variant-numeric: oldstyle-nums;
   color: #6495ED;
@@ -3003,7 +3002,7 @@ a:hover {
   .is-2 {
     --base-size: 9vh;
     bottom: auto;
-    top: 20vh;
+    top: 15vh;
     right: 13vw;
   }
   .is-9 {
