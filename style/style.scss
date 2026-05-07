@@ -28,11 +28,13 @@ body {
 }
 
 html {
-  font-family: 'Agipo';
+  // font-family: 'Agipo';
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
   font-size: 1.64rem;
   font-variant-numeric: oldstyle-nums;
-  color: crimson;
-  word-break:keep-all;
+  color: #6495ED;
+  word-break: keep-all;
 }
 
 body {
@@ -989,7 +991,7 @@ a:hover {
     max-width: 95vw;
   }
 
-  .is-1 {  --base-size: 11vh; transform: translateX(0) translateY(0); left: auto; right:0vw; top:auto; bottom: 10vh; }
+  .is-1 {  --base-size: 11vh; transform: translateX(0) translateY(0); left: auto; right:10vw; top:auto; bottom: 10vh; }
   .is-4 { top: 1vh; left: 10vw; }
   .is-12 { top: 3vh; left: 30vw; }
 
@@ -1001,7 +1003,7 @@ a:hover {
   .is-7 { top: 60vh; left: 30vw; }
 
   .is-6 { bottom: 10vh; left: 5vw; }
-  .is-2 { --base-size: 9vh; bottom: auto; top: 20vh; right: 0vw; }
+  .is-2 { --base-size: 9vh; bottom: auto; top: 20vh; right: 13vw; }
   .is-9 { top: auto; bottom: 2vh; left: 30vw; }
   .is-10 { top:auto; left: auto; bottom: 10vh; right: 20vw; }
 
