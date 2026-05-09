@@ -417,6 +417,7 @@ a:hover {
 .is-211 { bottom: 0vh; right:0vw; }
 .is-212 { bottom: 0vh; right:0vw; }
 .is-213 { bottom: 5vh; right:30vw; }
+.is-214 { bottom: 0vh; right:0vw; }
 
 .is-1 img { height: calc(var(--base-size) * 3); }
 .is-2 img { height: calc(var(--base-size) * 3); }
@@ -661,6 +662,7 @@ a:hover {
 
 .is-212 img { height: calc(var(--base-size) * 4);}
 .is-213 img { height: calc(var(--base-size) * 2);}
+.is-214 img { height: calc(var(--base-size) * 2);}
 
 @media screen and (max-width: 768px) {
   html {
@@ -1316,6 +1318,7 @@ a:hover {
 .is-211 { --base-size: 7.6vh; bottom: 35vh; right:-0.5vw; }
 .is-212 { --base-size: 15vh; bottom: 0vh; right:0vw; }
 .is-213 { bottom: 0vh; right:0vw; }
+.is-214 {--base-size: 8vh; bottom: 0vh; right:0vw; }
 
 .name {
   margin-left: 0;
