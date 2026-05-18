@@ -90,6 +90,71 @@ p {
   color: darkgreen;
 }
 
+.wt {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+
+#wt-title,
+#wt-title2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0;
+  color: black;
+  line-height: 0.9;
+  text-align: center;
+}
+
+#wt-title {
+  font-family: Helvetica, sans-serif !important;
+  font-weight: 800;
+  font-size: clamp(2rem, 8vw, 5rem);
+  transform: translate(-50%, -55%);
+  z-index: 1;
+}
+
+#wt-title2 {
+  font-family: "Times New Roman", Times, serif !important;
+  font-size: clamp(2rem, 8vw, 5rem);
+  text-decoration: underline;
+  font-style: italic;
+  transform: translate(-50%, -15%) rotate(-6deg);
+  z-index: 2;
+}
+
+#list {
+  position: absolute;
+  top: 0.3rem;
+  left: 0.8rem;
+  right: 0.8rem;
+  color: black;
+  font-family: Helvetica, sans-serif !important;
+  font-weight: 500;
+  font-size: clamp(1.9rem, 3vw, 4rem);
+  line-height: 1.14;
+  word-break: break-word;
+}
+
+#come {
+  position: absolute;
+  bottom: 0.35rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: 400;
+  font-size: 0.6rem;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 #name {
   color: silver;
 }
@@ -174,16 +239,13 @@ a:hover {
 }
 
 .is-1 {
-  --base-size: 20vh;
-  transform: translateX(50%) translateY(50%);
-  left: 0%;
-  top: -10%;
+  left: 10%;
+  top: 20%;
 }
 
 .is-2 {
-  --base-size: 14vh;
-  bottom: 50vh;
-  right: 10vw;
+  bottom: 20vh;
+  right: 5vw;
 }
 
 .is-3 {
@@ -2969,10 +3031,9 @@ a:hover {
     max-width: 95vw;
   }
   .is-1 {
-    --base-size: 11vh;
-    transform: translateX(0) translateY(0);
+    --base-size: 12vh;
     left: auto;
-    right: 10vw;
+    right: 2vw;
     top: auto;
     bottom: 10vh;
   }
@@ -3009,10 +3070,10 @@ a:hover {
     left: 5vw;
   }
   .is-2 {
-    --base-size: 9vh;
+    --base-size: 10vh;
     bottom: auto;
     top: 15vh;
-    right: 13vw;
+    right: 2vw;
   }
   .is-9 {
     top: auto;
@@ -3809,5 +3870,28 @@ a:hover {
     width: -moz-fit-content;
     width: fit-content;
     margin-bottom: 0.15rem;
+  }
+}
+@media screen and (max-width: 480px) and (max-width: 480px) {
+  #wt-title {
+    font-size: clamp(1rem, 18vw, 2rem);
+    transform: translate(-50%, -60%);
+  }
+  #wt-title2 {
+    font-size: clamp(1rem, 18vw, 2rem);
+    transform: translate(-50%, 0%) rotate(-5deg);
+  }
+}
+@media screen and (max-width: 480px) {
+  #list {
+    font-size: 1.6rem;
+    line-height: 1.1;
+    top: 0.5rem;
+    left: 0.8rem;
+    right: 0.8rem;
+  }
+  #come {
+    font-size: 0.8rem;
+    bottom: 0.4rem;
   }
 }/*# sourceMappingURL=style.css.map */
