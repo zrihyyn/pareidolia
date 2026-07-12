@@ -14,6 +14,10 @@
   background-color: rgb(34, 0, 255);
 }
 
+.summer2 {
+  background-color: rebeccapurple;
+}
+
 @font-face {
   font-family: "Agipo";
   src: url("Agipo-Regular.woff2") format("woff2"), url("Agipo-Regular.woff") format("woff");
@@ -1372,6 +1376,16 @@ a:hover {
   right: 3vw;
 }
 
+.is-224 {
+  bottom: 0vh;
+  left: 20vw;
+}
+
+.is-225 {
+  bottom: 20vh;
+  right: 15vw;
+}
+
 .is-1 img {
   height: calc(var(--base-size) * 3);
 }
@@ -2280,6 +2294,14 @@ a:hover {
   height: calc(var(--base-size) * 1.5);
 }
 
+.is-224 img {
+  height: calc(var(--base-size) * 4.7);
+}
+
+.is-225 img {
+  height: calc(var(--base-size) * 4.5);
+}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 1.4rem;
@@ -3118,6 +3140,14 @@ a:hover {
   .is-223 {
     top: 30vh;
     left: 0vw;
+  }
+  .is-224 {
+    bottom: 10vh;
+    left: 20vw;
+  }
+  .is-225 {
+    bottom: 20vh;
+    right: 15vw;
   }
   .name {
     margin-left: 32vw;
@@ -4004,6 +4034,14 @@ a:hover {
   .is-223 {
     top: 30vh;
     left: 0vw;
+  }
+  .is-224 {
+    bottom: 20vh;
+    left: 5vw;
+  }
+  .is-225 {
+    bottom: 20vh;
+    right: 3vw;
   }
   .name {
     margin-left: 0;
