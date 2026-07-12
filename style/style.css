@@ -3979,8 +3979,7 @@ a:hover {
     left: 10vw;
   }
   .is-217 {
-    top: 23vh;
-    left: 40vw;
+    visibility: hidden;
   }
   .is-218 {
     bottom: 1vh;
