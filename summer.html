@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="icon" type="image/png" href="asset/tnj.png">
-        <link rel="preload" href="Agipo-Regular.woff2" as="font" type="font/woff2" crossorigin>
-        <title>Tom and Jamie</title>
-      </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preload" href="Agipo-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <title>Shsh</title>
+</head>
 <body class="summer">
-    <a href="" class="page-link"></a>
+    <a href="off.html" class="page-link"></a>
 
     <div class="rand is-215">
         <img src="asset/summer.png" alt="">
@@ -53,22 +52,6 @@
             <p id="sh"></p>
         </div>
     </div>
-    <script>
-      const link = document.querySelector('.page-link');
-    
-      if (link) {
-        link.addEventListener('click', function (e) {
-          const href = this.getAttribute('href');
-          if (!href) return;
-    
-          e.preventDefault();
-          document.body.classList.add('is-leaving');
-    
-          setTimeout(() => {
-            window.location.href = href;
-          }, 250);
-        });
-      }
-    </script>
+
 </body>
 </html>
